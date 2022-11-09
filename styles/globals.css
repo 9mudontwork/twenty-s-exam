@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+	font-family: 'NotoSansThai';
+	font-weight: 400;
+	src: url('/fonts/NotoSansThai-Regular.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'NotoSansThai';
+	font-weight: 500;
+	src: url('/fonts/NotoSansThai-Medium.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'NotoSansThai';
+	font-weight: 600;
+	src: url('/fonts/NotoSansThai-SemiBold.ttf') format('truetype');
+}
+
+html,
+body {
+	font-family: 'NotoSansThai';
+	font-size: 16px;
+	background-color: #fff;
+	color: theme('colors.neutral.900');
+}
+
+/* .unplugin-icon {
+	display: inline-block;
+	text-align: center;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+} */
